@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        //CarruselView(images: ["a","globe","a"])
-        Text("")
+        VStack{
+            Image("perro")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 5000, height:300)
+                .rotationEffect(Angle(degrees: -45))
+        }
     }
 }
 

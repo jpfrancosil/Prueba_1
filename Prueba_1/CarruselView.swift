@@ -36,7 +36,7 @@ struct CarruselView: View {
 struct CarruselView_Previews: PreviewProvider {
     static var previews: some View {
         CarruselView(imageUrls : [
-            URL(string: "https://es.wikipedia.org/wiki/Club_Universitario_de_Deportes#/media/Archivo:Logo_oficial_de_Universitario.png")!,
+            URL(string: "https://universitario.pe/media/download/prensa/ID_escudo_universitario.jpg")!,
             URL(string: "https://es.wikipedia.org/wiki/Club_Universitario_de_Deportes#/media/Archivo:Logo_oficial_de_Universitario.png")!,
             URL(string: "https://es.wikipedia.org/wiki/Club_Universitario_de_Deportes#/media/Archivo:Logo_oficial_de_Universitario.png")!,
             URL(string: "https://es.wikipedia.org/wiki/Club_Universitario_de_Deportes#/media/Archivo:Logo_oficial_de_Universitario.png")!
